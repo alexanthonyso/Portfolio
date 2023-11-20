@@ -1,0 +1,11 @@
+/* TypingAnimation.css */
+
+.typing-text {
+  color: #323538;
+  font-size: 18px;
+}
+
+.cursor {
+  visibility: visible;
+  opacity: 1;
+}

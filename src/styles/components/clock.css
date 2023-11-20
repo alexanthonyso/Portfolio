@@ -1,0 +1,10 @@
+.clock {
+  display: flex;
+  color: #323538;
+  margin-right: 25px;
+  margin-left: 20px;
+}
+
+.clock img {
+  margin-right: 10px;
+}

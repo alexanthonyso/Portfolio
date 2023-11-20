@@ -1,0 +1,102 @@
+.modal-container {
+  position: fixed;
+  display: flex;
+  max-width: 75%;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  height: 740px;
+  background: #ebebeb;
+  padding: 20px;
+  border-top: 46px solid #f7f7f7;
+
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+
+  position: relative;
+  margin-top: 22px;
+  border-radius: 0 0 8px 8px;
+}
+
+.button-bar {
+  display: flex;
+  align-items: center;
+  width: 159px;
+  height: 64%;
+
+  background-color: #c2c2c2;
+  border-left: none;
+  border-right: 1px solid #54585c;
+  margin-left: 10px;
+
+  border-radius: 5px 5px 5px 5px;
+  border-style: none;
+}
+
+.button-bar:active {
+  background-color: #2f3235;
+  color: #d9d9d9;
+}
+.icon {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.title {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: -35px; /* Égal à l'épaisseur négative de la bordure supérieure pour l'aligner avec le bord */
+  left: 13px; /* ou ajustez selon l'espacement souhaité du bord droit */
+  /* Assurez-vous que le bouton est assez grand pour englober la zone cliquable désirée */
+  color: #3c3f42;
+}
+.close-button {
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 2.5rem;
+  color: #3c3f42;
+  cursor: pointer;
+}
+
+.content-about {
+  display: flex;
+  padding: 7%;
+  gap: 10%;
+}
+
+.content-about2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 100%;
+}
+.content-about h1 {
+  color: #000000;
+  font-size: 20px;
+}
+.content-about p {
+  color: #323538;
+}
+
+.aboutI {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 100px;
+  padding-top: 100px;
+}
+
+.gallery-container a {
+  text-decoration: none;
+  color: #2f3235;
+}

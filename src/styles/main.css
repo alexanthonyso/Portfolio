@@ -1,0 +1,17 @@
+* {
+  font-family: "Fira Code", monospace;
+  width: auto;
+  height: auto;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+
+body {
+  /* max-width: 1920px; */
+
+  background-color: #E2E2E2;
+}
+
