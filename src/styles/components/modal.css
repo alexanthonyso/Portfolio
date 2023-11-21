@@ -65,7 +65,7 @@
 
 .content-about {
   display: flex;
-  padding: 7%;
+  padding: 5%;
   gap: 10%;
 }
 
@@ -78,6 +78,7 @@
 .content-about h1 {
   color: #000000;
   font-size: 20px;
+  margin-top: 50px;
 }
 .content-about p {
   color: #323538;
