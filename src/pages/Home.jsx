@@ -80,12 +80,12 @@ const Home = () => {
   };
 
   return (
-    <div className="Home">
-      <main>
-        <Header
-          onOpenModal={toggleAboutModal}
-          onOpenProjectModal={toggleProjectModal}
-        />
+      <div className={`Home ${isAboutModalOpen || isProjectModalOpen ? 'modal-open' : ''}`}>
+        <main>
+          <Header
+            onOpenModal={toggleAboutModal}
+            onOpenProjectModal={toggleProjectModal}
+          />
 
         {/* Modale pour "About" */}
         <AnimatePresence>
@@ -180,14 +180,11 @@ const Home = () => {
                 <img src={Terminal} alt="Icône" />
                 <span className="arrow">&gt;</span>Terminal
               </div>
-              <div>
-                <pre className="ascii">
-                  {`
-
-        `}
-                </pre>
+              <div className="typing">
+               <Typing />
               </div>
-              <Typing />
+              
+              
             </div>
             <div className="container-logo">
               <a

@@ -1,14 +1,11 @@
 .modal-container {
-  position: fixed;
+
   display: flex;
-  max-width: 75%;
-  align-items: center;
-  justify-content: center;
+
   z-index: 1000;
 }
 
 .modal-content {
-  height: 740px;
   background: #ebebeb;
   padding: 20px;
   border-top: 46px solid #f7f7f7;

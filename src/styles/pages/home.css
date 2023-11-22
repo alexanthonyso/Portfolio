@@ -6,6 +6,11 @@
   z-index: 999; /* Vous pouvez ajuster cette valeur si nécessaire */
 }
 
+.modal-open .html-container {
+  height: 0;
+  overflow: hidden;
+}
+
 .html-container p {
   color: #323538;
   font-size: 12px;
