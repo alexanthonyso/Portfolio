@@ -16,7 +16,7 @@ const Gallery = () => {
   ];
   const externalLinks = [
     "https://alexanthonyso.github.io/Booki/",
-    "https://kasa-fthk4upzq-alexanthonysos-projects.vercel.app/",
+    "https://kasa-seven-tawny.vercel.app/",
     "https://master-taupe.vercel.app/",
     "https://example.com/4",
   ];
