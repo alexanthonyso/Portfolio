@@ -9,15 +9,15 @@ import image4 from "../assets/gallery/img4.jpg";
 const Gallery = () => {
   const imageUrls = [image1, image2, image3, image4];
   const imageTitles = [
-    "Projet // _Booki.html",
-    "Projet // _Booki.react.js",
-    "test",
-    "test",
+    "Project // _Booki.html",
+    "Project // _Booki.react.js",
+    "Project // _Nina Carducci.optimization",
+    "Comming Soon",
   ];
   const externalLinks = [
     "https://alexanthonyso.github.io/Booki/",
-    "https://github.com/alexanthonyso/Kasa",
-    "https://example.com/3",
+    "https://kasa-fthk4upzq-alexanthonysos-projects.vercel.app/",
+    "https://master-taupe.vercel.app/",
     "https://example.com/4",
   ];
 

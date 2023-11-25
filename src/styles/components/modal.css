@@ -1,5 +1,4 @@
 .modal-container {
-
   display: flex;
 
   z-index: 1000;
@@ -89,12 +88,26 @@
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 
-  gap: 100px;
   padding-top: 100px;
 }
 
 .gallery-container a {
   text-decoration: none;
   color: #2f3235;
+}
+
+.image-container img {
+  transition: 0.5s ease;
+}
+
+.image-container img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+.image-title {
+  margin-top: 10px;
 }
