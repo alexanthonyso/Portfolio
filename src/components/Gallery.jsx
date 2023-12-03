@@ -12,13 +12,13 @@ const Gallery = () => {
     "Project // _Booki.html",
     "Project // _Booki.react.js",
     "Project // _Nina Carducci.optimization",
-    "Comming Soon",
+    "Project // _Moonflower.react.js",
   ];
   const externalLinks = [
     "https://alexanthonyso.github.io/Booki/",
     "https://kasa-seven-tawny.vercel.app/",
     "https://master-taupe.vercel.app/",
-    "https://example.com/4",
+    "https://florist-sigma.vercel.app",
   ];
 
   const imageSize = {
