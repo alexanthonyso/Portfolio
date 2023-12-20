@@ -5,20 +5,23 @@ import image1 from "../assets/gallery/img1.jpg";
 import image2 from "../assets/gallery/img2.jpg";
 import image3 from "../assets/gallery/img3.jpg";
 import image4 from "../assets/gallery/img4.jpg";
+import image5 from "../assets/gallery/img5.jpg";
 
 const Gallery = () => {
-  const imageUrls = [image1, image2, image3, image4];
+  const imageUrls = [image1, image2, image3, image4, image5];
   const imageTitles = [
     "Project // _Booki.html",
     "Project // _Booki.react.js",
     "Project // _Nina Carducci.optimization",
     "Project // _Moonflower.react.js",
+    "Project // _Photographer.react.js",
   ];
   const externalLinks = [
     "https://alexanthonyso.github.io/Booki/",
     "https://kasa-seven-tawny.vercel.app/",
     "https://master-taupe.vercel.app/",
     "https://florist-sigma.vercel.app",
+    "https://photographer-pearl.vercel.app",
   ];
 
   const imageSize = {
