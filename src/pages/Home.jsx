@@ -40,7 +40,7 @@ const Home = () => {
     // Simuler une requête API ou un chargement de ressource
     const timer = setTimeout(() => {
       setIsLoading(false); // Arrêter l'affichage de la page de chargement après le chargement
-    }, 3000); // 3 secondes pour l'exemple
+    }, 3000); // 2 secondes pour l'exemple
 
     // Nettoyage du timer en cas de démontage du composant
     return () => {
